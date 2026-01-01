@@ -1,0 +1,1 @@
+Crouch to disable elytra flight and land. Useful for landing on small platforms or disable elytras when in water.

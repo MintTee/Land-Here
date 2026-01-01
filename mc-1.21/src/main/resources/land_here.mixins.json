@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "land_here.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "LivingEntityFallFlyingMixin",
+    "accessor.EntityAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

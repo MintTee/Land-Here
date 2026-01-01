@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "land_here",
+  "version": "1.0.0",
+  "name": "Land Here",
+  "description": "Crouch to disable elytra flight and land",
+  "authors": ["yafuce"],
+  "contact": {
+    "discord": "yafuce.",
+    "mail": "martin.bost@proton.me",
+    "website":"https://modrinth.com/mod/yafuces-nerfed-totems"
+  },
+  "license": "GNU General Public License version 3",
+  "icon": "assets/land_here/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["land_here.Main"]
+  },
+  "mixins": [
+    "land_here.mixins.json"
+  ],
+  "depends": {
+    "minecraft": ">=1.21 <1.22",
+    "fabricloader": ">=0.18.4",
+    "java": ">=21"
+  }
+}
